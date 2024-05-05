@@ -1,0 +1,10 @@
+.circle-div{
+    background: linear-gradient(to top, red,blue,green,black,orange,purple);
+    animation: ani 7s linear infinite;
+}
+
+@keyframes ani {
+    100%{
+        transform: rotate(360deg);
+    }
+}
