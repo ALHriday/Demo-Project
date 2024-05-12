@@ -1,25 +1,6 @@
-import React, { useRef } from 'react'
+import React from 'react'
 
 export default function Part3() {
-
-    const more = useRef();
-    const moreBtn = useRef();
-
-    function learnMore(){
-        if(more.current.innerText = ""){
-            // more.current.innerText = `Lorem ipsum dolor sit amet consectetur adipisicing.`
-            // moreBtn.current.style.display = "none"; 
-
-            more.current.innerText = "";
-            moreBtn.current.style.display = "block";
-        }else{
-            // more.current.innerText = "";
-            // moreBtn.current.style.display = "block";
-
-            more.current.innerText = `Lorem ipsum dolor sit amet consectetur adipisicing.`
-            moreBtn.current.style.display = "none"; 
-        }
-    }
 
   return (
     <>
@@ -35,11 +16,8 @@ export default function Part3() {
             <div className='border-2 p-3 rounded hover:bg-teal-900 bg-gray-800 size-3/4 sm:size-1/6 cursor-pointer'>
                 <h1 className='text-center p-1 mb-2 bg-orange-500 rounded text-xl'>Hriday</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, labore?</p>
-                <p ref={moreBtn} onClick={learnMore} className='border'>Learn more</p>
-                <p ref={more}></p>
             </div>
           
-
         </div>
     </>
   )
