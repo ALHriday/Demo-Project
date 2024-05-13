@@ -6,9 +6,7 @@ export default function Part2() {
 
   function sectionA(){
     changeText.current.innerText = 
-    `Lorem ipsum dolor sit amet, consectetur 
-    adipisicing elit. Laborum quam placeat,
-    accusamus excepturi recusandae numquam.`
+    `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam minima nobis veniam commodi odit! Suscipit temporibus explicabo inventore. Eligendi, itaque?`
   }
   function sectionB(){
     changeText.current.innerText = 
@@ -34,9 +32,7 @@ export default function Part2() {
                 <h1 onClick={sectionC} className='bg-orange-500 cursor-pointer p-1 border-b-2 text-center hover:bg-gray-700'>Section C</h1>
             </div>
             <div className='basis-4/6 border-2 p-2 bg-gray-700'>
-                <p ref={changeText}>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Possimus fugiat dolorum architecto aut minima, atque
-                    laudantium iusto provident facere adipisci!
+                <p ref={changeText}>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Possimus fugiat dolorum architecto aut minima, atqul audantium iusto provident facere adipisci!
                 </p>
             </div>
         </div>
