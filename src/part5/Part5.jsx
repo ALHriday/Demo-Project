@@ -3,13 +3,8 @@ import "./Part5.css"
 
 const Part5 = () => {
 
-    // const el = useRef();
-    // const el2 = useRef();
-
     let parent = document.querySelector(".parent");
-    // let childEl1 = document.querySelector(".child1");
-    // let childEl2 = document.querySelector(".child2");
-    
+
     function createEl(){
       let delEl;
         const node = document.createElement("h1");
@@ -23,20 +18,17 @@ const Part5 = () => {
         parent.appendChild(node2);    
         parent.appendChild(node3);
 
-        function delChild(){
-          parent.remove(node);
-          parent.remove(node2);
-          parent.remove(node3);
-        }
-        // delEl.addEventListener("click", delChild);
+        // function delChild(){
+        //   parent.remove(node);
+        //   parent.remove(node2);
+        //   parent.remove(node3);
+        // }
     }
 
    
   return (
     <>
     <div className='parent text-white p-3 bg-blue-500'>
-          {/* <div className='child1'></div> */}
-          {/* <div className='child2'></div> */}
     </div>
     <div className='bg-white p-3'>
         
