@@ -3,26 +3,21 @@ import "./Part5.css"
 
 const Part5 = () => {
 
-    let parent = document.querySelector(".parent");
+    
 
     function createEl(){
-      let delEl;
+        let parent = document.querySelector(".parent");
+        
         const node = document.createElement("h1");
         const node2 = document.createElement("p");
         const node3 = document.createElement("p");
         node.innerText = "Help!";
         node2.innerText = "Do you have a problem? contact us";
         node3.innerText = "X";
-        delEl = node3.classList.add("delEl");
+        node3.classList.add("delEl");
         parent.appendChild(node);
         parent.appendChild(node2);    
         parent.appendChild(node3);
-
-        // function delChild(){
-        //   parent.remove(node);
-        //   parent.remove(node2);
-        //   parent.remove(node3);
-        // }
     }
 
    
