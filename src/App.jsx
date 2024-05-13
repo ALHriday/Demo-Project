@@ -4,7 +4,7 @@ import Navbar from './Navbar/Navbar'
 import Part1 from './part1/Part1'
 import Part2 from './part2/Part2'
 import Part3 from './part3/Part3'
-import Part4 from './part4.jsx/Part4'
+import Part4 from './part4/Part4'
 import Part5 from './part5/Part5'
 
 function App() {
