@@ -6,6 +6,7 @@ import Part2 from './part2/Part2'
 import Part3 from './part3/Part3'
 import Part4 from './part4/Part4'
 import Part5 from './part5/Part5'
+import Part6 from './part6/Part6'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Part2/>
       <Part3/>
       <Part5/>
+      <Part6/>
       {/* <Part4/> */}
     </>
   )
