@@ -1,4 +1,5 @@
 
+import { Outlet } from 'react-router-dom'
 import './App.css'
 import Navbar from './Navbar/Navbar'
 import Part1 from './part1/Part1'
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Navbar/>
+      <Outlet></Outlet>
       <Part1/>
       <Part2/>
       <Part3/>
